@@ -11,5 +11,19 @@
 
     <artifactId>submodule-one</artifactId>
 
+    <packaging>jar</packaging>
+
+    <profiles>
+        <profile>
+            <id>junit</id>
+            <dependencies>
+                <dependency>
+                    <groupId>junit</groupId>
+                    <artifactId>junit</artifactId>
+                    <version>4.12</version>
+                </dependency>
+            </dependencies>
+        </profile>
+    </profiles>
 
 </project>
