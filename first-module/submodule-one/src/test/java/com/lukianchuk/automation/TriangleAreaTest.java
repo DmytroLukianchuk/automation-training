@@ -18,13 +18,13 @@ public class TriangleAreaTest {
     public static Object[][] data() {
         Object [][] result = {
             {
-                1, 1, 1  // base, height and result
+                1, 1, 0.5  // base, height and result
             },
             {
                 2, 3, 3
             },
             {
-                10, 5, 25.0
+                10, 5, 25.1
             }
         };
         return result;
